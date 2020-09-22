@@ -1,0 +1,53 @@
+.education-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(35%, 1fr));
+	gap: 1rem;
+	margin: 30px auto;
+	width: 60%;
+}
+
+.education-container-main {
+	display: flex;
+	padding: 2rem;
+	flex-flow: column;
+	background: white;
+	justify-content: space-between;
+	height: 100%;
+	color: rgb(88, 96, 105);
+	border-radius: 0.25rem;
+	transition: all 200ms cubic-bezier(0.23, 1, 0.32, 1) 0s;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 20px -15px;
+	border: 1px solid #e5e6e9;
+	font-size: 16px;
+	position: relative;
+	word-wrap: break-word;
+}
+
+.data-title {
+	color: black;
+	font-weight: 600;
+	margin-right: 10px;
+}
+
+.education-settings {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin-right: 10px;
+}
+.edit-education {
+	margin-right: 7px;
+}
+#edit-education-icon {
+	font-size: 15px;
+	color: black;
+}
+#edit-education-icon:visited {
+	color: black;
+}
+
+.delete-education {
+	background: none;
+	border: none;
+	cursor: pointer;
+}

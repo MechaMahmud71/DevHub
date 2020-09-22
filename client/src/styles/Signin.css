@@ -1,0 +1,104 @@
+.signin-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.main-signin {
+	margin-top: 50px;
+}
+.main-upper-signin {
+	text-align: center;
+	margin-bottom: 15px;
+}
+.logo-link-signin {
+	color: black;
+}
+#signin-logo {
+	font-size: 30px;
+}
+.signin-msg {
+	font-size: 25px;
+
+	margin-top: 10px;
+}
+
+.form-signin-form {
+	width: 400px;
+}
+.signin-formgrp {
+	margin-bottom: 18px;
+}
+.extra {
+	display: flex;
+}
+lable {
+	flex: 2;
+	display: inline-block;
+	font-size: 15px;
+	margin-bottom: 7px;
+}
+.forget-password {
+	flex: 1;
+	font-size: 15px;
+	text-decoration: none;
+	text-align: right;
+	color: #0066ff;
+}
+.signin-formgrp #email,
+#password,
+#username {
+	width: 100%;
+	font-size: 15px;
+	min-height: 20px;
+}
+.signin-btn {
+	display: block;
+	text-align: center;
+	width: 100%;
+	margin-top: 35px;
+	margin-bottom: 14px;
+	padding: 20px 32px;
+	border: none;
+
+	border-radius: 6px;
+	font-size: 16px;
+	background-color: #33cc33;
+	color: white;
+}
+.signin-btn:hover {
+	background-color: #28a745;
+}
+
+.create-account {
+	text-align: center;
+	padding: 20px 40px;
+	border: 1px solid #e1e4e8;
+	margin-top: 25px;
+	border-radius: 5px;
+}
+.create-account .create-sign-up {
+	font-size: 15px;
+	text-decoration: none;
+	margin-left: 5px;
+	color: #0066ff;
+}
+.create-sign-up:hover {
+	text-decoration: underline;
+}
+
+@media only screen and (max-width: 480px) {
+	.form-signin-form {
+		width: 350px;
+	}
+	.forget-password {
+		flex: none;
+	}
+}
+@media only screen and (max-width: 375px) {
+	.form-signin-form {
+		width: 330px;
+	}
+	.forget-password {
+		flex: none;
+	}
+}

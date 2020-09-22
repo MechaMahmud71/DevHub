@@ -1,0 +1,88 @@
+.signup-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.main-signup {
+	margin-top: 50px;
+}
+.main-upper {
+	text-align: center;
+	margin-bottom: 30px;
+}
+.join-msg {
+	font-family: "Courier New", Courier, monospace;
+	color: gray;
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+.main-text-upper {
+	font-size: 45px;
+	margin-bottom: 50px;
+}
+.form-signup-form {
+	width: 544px;
+}
+.signup-formgrp {
+	margin-bottom: 18px;
+}
+lable {
+	display: block;
+	font-size: 15px;
+	margin-bottom: 7px;
+}
+.signup-formgrp #email,
+#password,
+#username {
+	width: 100%;
+	font-size: 15px;
+	min-height: 20px;
+	color: black;
+}
+.signup-create-account {
+	display: block;
+	text-align: center;
+	width: 100%;
+	margin-top: 35px;
+	margin-bottom: 14px;
+	padding: 20px 32px;
+	border: none;
+
+	border-radius: 6px;
+	font-size: 16px;
+	background-color: #0066ff;
+	color: white;
+}
+.signup-create-account:hover {
+	background-color: #0779e4;
+}
+@media only screen and (max-width: 480px) {
+	.form-signup-form {
+		width: 350px;
+	}
+	.forget-password {
+		flex: none;
+	}
+	.main-text-upper {
+		font-size: 35px;
+		margin-bottom: 20px;
+	}
+	.main-upper {
+		margin-bottom: 20px;
+	}
+}
+@media only screen and (max-width: 375px) {
+	.form-signup-form {
+		width: 330px;
+	}
+	.forget-password {
+		flex: none;
+	}
+	.main-upper {
+		margin-bottom: 20px;
+	}
+	.main-text-upper {
+		font-size: 35px;
+		margin-bottom: 20px;
+	}
+}

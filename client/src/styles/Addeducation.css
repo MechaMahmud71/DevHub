@@ -1,0 +1,71 @@
+.add-education-container {
+	font-family: sans-serif;
+
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+}
+.add-education-heading {
+	margin-top: 20px;
+}
+
+.inputText {
+	width: 60%;
+	margin: 20px !important;
+}
+.checkbox {
+	margin-left: 10px !important;
+}
+
+.submit-button {
+	width: 200px !important;
+	margin: 20px !important;
+}
+
+.add-education-button-group {
+	display: flex;
+}
+
+.add-education-button {
+	font-size: 18px;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	color: black;
+}
+#add-education-plus-icon {
+	color: black;
+}
+.add-education-link-text {
+	padding-left: 10px;
+}
+.education-add-education {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+@media only screen and (max-width: 480px) {
+	.add-education-container {
+		display: block;
+	}
+	.add-education-container div {
+		width: 20rem;
+	}
+	.add-education-heading {
+		font-size: 30px;
+		margin-left: 20px;
+	}
+	.add-education-button-group {
+		display: block;
+	}
+	.MuiInputAdornment-root {
+		height: 0.01em;
+		display: flex;
+		max-height: 2em;
+		align-items: center;
+		white-space: nowrap;
+		justify-content: flex-end;
+	}
+}

@@ -1,0 +1,64 @@
+.socialLink-container {
+	display: flex;
+
+	margin: auto;
+}
+
+.youtube-active,
+.facebook-active,
+.linkedin-active,
+.twitter-active,
+.instagram-active,
+.edit-social-links {
+	display: block;
+	color: white;
+	background-color: rgb(36, 41, 46);
+	padding: 15px 25px;
+	margin: 20px;
+	border-radius: 5px;
+}
+a,
+#plus-icon {
+	font-size: 30px;
+}
+.youtube-hide,
+.facebook-hide,
+.linkedin-hide,
+.twitter-hide,
+.instagram-hide {
+	display: none;
+	background: none;
+}
+
+#youtube-icon,
+#facebook-icon,
+#linkedin-icon,
+#twitter-icon,
+#plus-icon {
+	color: rgb(200, 225, 255) !important;
+}
+#instagram-icon {
+	color: rgb(200, 225, 255) !important;
+}
+
+.facebook-active:hover #facebook-icon {
+	color: #1877f2 !important;
+}
+.youtube-active:hover #youtube-icon {
+	color: red !important;
+}
+.twitter-active:hover #twitter-icon {
+	color: #00acee !important;
+}
+
+.linkedin-active:hover #linkedin-icon {
+	color: #0e76a8 !important;
+}
+
+.instagram-active:hover #instagram-icon {
+	color: #d6249f !important;
+}
+/* will be updated */
+/* .instagram-active{
+  background: blue;
+} */

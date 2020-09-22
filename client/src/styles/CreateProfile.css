@@ -1,0 +1,91 @@
+.create-profile-heading {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.create-profile-about {
+	margin-bottom: 15px;
+}
+
+.create-profile-about-heading {
+	margin-bottom: 10px;
+}
+#about {
+	width: 100%;
+	padding: 10px 10px;
+	height: 150px;
+}
+
+.sub-text {
+	font-size: 13px;
+	color: grey;
+	margin-top: 5px;
+}
+.create-profile-skills {
+	margin-bottom: 15px;
+}
+
+.profile-skills,
+.profile-githubusername,
+.profile-website {
+	padding: 10px 20px;
+	width: 100%;
+}
+
+.create-profile-githubusername {
+	margin-bottom: 15px;
+}
+
+.create-profile-buttons {
+	margin-top: 20px;
+}
+
+.profile-confirm-button,
+.profile-cancle-button {
+	background-color: #33cc33;
+	padding: 10px 50px;
+	border: none;
+	color: white;
+	margin-right: 20px;
+	cursor: pointer;
+}
+.profile-confirm-button:hover {
+	background-color: #28a745;
+}
+
+.profile-cancle-button {
+	background-color: red;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+.add-social-submit-buttons {
+	margin-top: 20px;
+}
+
+.social-submit-button,
+.social-submit-cancle {
+	background-color: #33cc33;
+	padding: 10px 50px;
+	border: none;
+	color: white;
+	margin-right: 20px;
+	cursor: pointer;
+}
+.social-submit-button:hover {
+	background-color: #28a745;
+}
+
+.social-submit-cancle {
+	background-color: red;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+@media only screen and (max-width: 480px) {
+	.create-profile-buttons {
+		margin-bottom: 20px;
+		display: flex;
+		justify-content: center;
+	}
+}
